@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: myjavaapp-deploy
 spec:
-  replica: 3
+  replicas: 3
   selector:
     matchLabels:
       app: myjavaapp
